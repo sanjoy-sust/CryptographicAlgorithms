@@ -22,5 +22,6 @@ public class Application {
         String dataToEncrypt = scanner.next();
         String encryptedData = desAlgorithm.encrypt(dataToEncrypt);
         System.out.println("Encrypted Data : "+encryptedData);*/
+
     }
 }
